@@ -1,7 +1,7 @@
 import re
-
 text = open("input.txt", 'r', encoding="utf-8")
 data = text.read()
+
 CompanyNamePattern = r'ТОО \w+'
 BinPattern = r'БИН (\d{12})'
 ItemNamePattern = r'\d+\.\s(.+)'
@@ -21,14 +21,12 @@ Address = re.findall(AddressPattern, data)
 
 print(*CompanyName)
 print(*Bin, '\n')
-for i in range(len(ItemName)):
+for i in range(0, len(ItemName)):
 	print(ItemName[i])
 	print(ItemAmount[i])
 	print(ItemPrice1[i])
 	print(ItemPrice2[i])
 	print('\n')
-
 print(*Time)
 print(*Address)
-
 text.close()
