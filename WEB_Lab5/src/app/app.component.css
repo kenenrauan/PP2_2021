@@ -1,0 +1,25 @@
+header {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  background: cornflowerblue;
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+
+h1 {
+  margin: 8px 0;
+}
+
+.category {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

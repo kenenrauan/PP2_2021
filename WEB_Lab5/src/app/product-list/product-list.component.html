@@ -1,0 +1,7 @@
+<app-product-item
+  *ngFor="let item of getItems()"
+  [item]="item"
+  (remove)="onItemRemove($event)"
+></app-product-item>
+
+<p *ngIf="getItems().length === 0">No items of such category</p>

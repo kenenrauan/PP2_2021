@@ -57,7 +57,7 @@ while not done:
         sin1 = 200 * math.sin((x - 75) / 100 * PI)
         sin2 = 200 * math.sin((x - 74) / 100 * PI)
         pg.draw.aalines(screen, RED, False, [(x, 275 + sin1), ((x + 1), 275 + sin2)])
-    for x in range(75, 675):
+    for x in range(75, 675, 2):
         cos1 = 200 * math.cos((x - 75) / 100 * PI)
         cos2 = 200 * math.cos((x - 74) / 100 * PI)
         pg.draw.aalines(screen, BLUE, False, [(x, 275 + cos1), ((x + 1), 275 + cos2)])

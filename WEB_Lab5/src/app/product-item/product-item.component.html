@@ -1,0 +1,19 @@
+<img [src]="item.imageLink" [alt]="item.name">
+
+<a [href]="item.link">{{item.name}}</a>
+<p>{{item.description}}</p>
+
+<div>
+  <span class="material-icons" 
+    *ngFor="let i of [].constructor(getRating())" 
+    [title]="'Rating ' + item.rating">star_rate</span>
+</div>
+<a target="__blank" 
+  class="share-btn" 
+  [href]="getShareLink()" 
+  title="Telegram share link">Share</a>
+
+<button class="remove-btn" 
+  (click)="removeItem()">Remove</button>
+<button class="like-btn" 
+  (click)="addLike()"><span class="material-icons">favorite</span> {{item.likes}} like(-s)</button>

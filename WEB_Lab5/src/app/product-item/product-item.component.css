@@ -1,0 +1,64 @@
+:host {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 30px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px rgb(221, 221, 221) solid;
+  box-shadow: 0 0 10px rgb(180, 180, 180);
+  width: 300px;
+}
+
+:host img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+:host p {
+  text-justify: distribute;
+  text-align: justify;
+}
+
+a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.share-btn {
+  text-decoration: none;
+  color: green;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.material-icons {
+  color: rgb(63, 63, 63);
+}
+
+.remove-btn,
+.like-btn {
+  color: white;
+  margin: 5px 0;
+  border: 1px gray solid;
+  border-radius: 5px;
+  padding: 1px 20px;
+}
+
+.remove-btn {
+  background-color: crimson;
+}
+
+.like-btn {
+  background-color: cornflowerblue;
+}
+
+.like-btn .material-icons {
+  color: indianred;
+  font-size: inherit;
+}

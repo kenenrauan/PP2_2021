@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Home&Kitchen"
+  },
+  {
+    "id": 2,
+    "name": "Electronics"
+  },
+  {
+    "id": 3,
+    "name": "Pet Supplies"
+  },
+  {
+    "id": 4,
+    "name": "Software"
+  }
+]

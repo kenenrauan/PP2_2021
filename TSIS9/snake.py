@@ -4,8 +4,8 @@ import random
 
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
-pygame.mixer.music.load('sound.mp3')
-pygame.mixer.music.play(-1)
+# pygame.mixer.music.load('sound.mp3')
+# pygame.mixer.music.play(-1)
 
 BLUE = (0, 0, 255)
 RED = (255, 0, 0)
@@ -13,7 +13,6 @@ GREEN = (0, 255, 0)
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 GREY = (169, 169, 169)
-
 difficult = 0
 timer = 0
 clock = pygame.time.Clock()
@@ -105,12 +104,12 @@ class Snake:
         self.dy = 0
         self.is_add = False
         self.speed = 10
-
+        self.random_color = (random.randint(0, 256), random.randint(0, 256), random.randint(0, 256))
     # [x0, y0], [x1, y1], [x2, y2], [x3, y3] i -> i - 1
 
     def draw(self):
         for element in self.elements:
-            pygame.draw.circle(screen, (255, 0, 0), element, self.radius)
+            pygame.draw.circle(screen, self.random_color, element, self.radius)
 
     def add_to_snake(self):
         self.size += 1
@@ -140,8 +139,8 @@ class Snake:
     def eat(self, foodx, foody):
         x = self.elements[0][0]
         y = self.elements[0][1]
-
         if foodx <= x <= foodx + 20 and foody <= y <= foody + 20:
+            self.random_color = (random.randint(0, 256), random.randint(0, 256), random.randint(0, 256))
             return True
         return False
 
