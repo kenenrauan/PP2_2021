@@ -1,0 +1,23 @@
+<div *ngIf="loaded">
+    <h2>Post Detail #{{post.id}}</h2>
+  
+    <input type="text" [(ngModel)]="post.title">
+  
+    <p>{{post.body}}</p>
+    <button (click)="updatePost()">Save</button>
+    <button (click)="goBack()">Go Back</button>
+    <button (click)="showComments()">Show Comments</button>
+  </div>
+  <p *ngIf="!loaded">Loading post...</p>
+  
+  
+  <!--<p><a routerLink="/posts/2">2</a></p>-->
+  <!--<p><a routerLink="/posts/3">3</a></p>-->
+  <!--<p><a routerLink="/posts/4">4</a></p>-->
+  
+  
+  <ul *ngIf="comments.length">
+    <li *ngFor="let comment of comments">
+      {{comment.id}}) {{comment.name}} - {{comment.email}}
+    </li>
+  </ul>

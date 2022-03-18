@@ -1,0 +1,15 @@
+<h2>Post List</h2>
+
+<fieldset>
+  <input type="text" [(ngModel)]="newPost">
+  <button (click)="addPost()">Add Post</button>
+</fieldset>
+<ul *ngIf="loaded">
+  <li *ngFor="let post of posts">
+    <!--<a routerLink="/posts/{{post.id}}">{{post.id}}) {{post.title}}</a>-->
+    <a [routerLink]="['/posts', post.id]">{{post.id}}) {{post.title}}</a>
+    <button (click)="deletePost(post.id)">x</button>
+  </li>
+</ul>
+
+<p *ngIf="!loaded">Loading post list...</p>
