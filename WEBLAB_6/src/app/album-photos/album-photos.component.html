@@ -1,0 +1,13 @@
+<h2>{{title}}</h2>
+  
+  <button class="return-btn" (click)="returnBack()">Go back</button>
+  
+  <ng-template [ngIf]="loaded">
+    <div class="photo" *ngFor="let photo of photos">
+      <img [src]="photo.url" [alt]="photo.title">
+      {{photo.title}}
+    </div>
+  </ng-template>
+    
+  <p *ngIf="!loaded">Loading album-photos...</p>
+    
