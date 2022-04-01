@@ -1,0 +1,1 @@
+print((lambda x, y: 1 if x > y else 2 if x < y else 0)(int(input()), int(input())))

@@ -1,0 +1,1 @@
+print('YES' if (lambda x: x % 400 == 0 or (x % 4 == 0 and x % 100 != 0))(int(input())) else 'NO')

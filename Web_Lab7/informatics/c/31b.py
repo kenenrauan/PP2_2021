@@ -1,0 +1,1 @@
+print(*(lambda a, b, c, d: filter(lambda x: x % d == c, range(a, b + 1)))( int(input()), int(input()), int(input()), int(input()) ))
