@@ -1,0 +1,25 @@
+.del{
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: grey;
+  padding-top: 170px;
+  margin: 0px;
+  text-align: center;
+}
+.uldel{
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: inherit;
+  position: absolute;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: left;
+  color: grey;
+  padding-top: 60px;
+  margin: 10px;
+}

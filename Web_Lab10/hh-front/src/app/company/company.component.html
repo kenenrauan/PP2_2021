@@ -1,0 +1,9 @@
+<div>
+  Category List
+  <ul>
+    <li *ngFor="let c of companies">
+      {{c.id}}
+      <a href="comp/{{c.id}}">{{c.name}}</a>
+    </li>
+  </ul>
+</div>

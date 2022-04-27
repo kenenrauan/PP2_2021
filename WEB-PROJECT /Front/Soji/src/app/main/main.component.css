@@ -1,0 +1,35 @@
+.bodymain{
+  position:relative;
+  margin-top: 150px;
+}
+.btn{
+  border-radius: 50%;
+  text-decoration:none;
+  border-style: none;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  background-color: white;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  -webkit-text-fill-color:orange;
+  -webkit-text-stroke: 0px darkgrey;
+
+}
+.buyad{
+  font-style: normal;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: grey;
+  text-align: center;
+  font-size: 50px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 40pt;
+  font-weight: bold;
+  color: black;
+  -webkit-text-fill-color:white;
+  -webkit-text-stroke: 1px darkgrey;
+  background-image: url(https://hsto.org/storage/habraeffect/29/fb/29fbf20b716bad9435aa7cb19e0fccb9.jpg);
+}

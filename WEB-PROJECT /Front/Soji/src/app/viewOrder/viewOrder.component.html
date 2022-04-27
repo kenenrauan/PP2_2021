@@ -1,0 +1,13 @@
+<h3>My orders</h3>
+
+<ul style="list-style-type: none;">
+  <li *ngFor="let order of orders" >
+    Order id:<a>{{order.id}}</a> <button style="margin: 10px;" (click)="deleteOrder(order.id)">Cancel order</button>
+    <ul>
+      <li *ngFor="let product of order.product">
+        Product id:<a>{{product}}</a>
+      </li>
+    </ul>
+    <br>
+  </li>
+</ul>

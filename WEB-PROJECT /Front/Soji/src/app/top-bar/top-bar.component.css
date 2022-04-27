@@ -1,0 +1,28 @@
+nav{
+  background-color:white;
+  height: 50px;
+  width: 100%;
+  position: relative;
+  color: orange;
+  text-align: left;
+  font-size: larger;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer;
+}
+.box{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration:none;
+  color: grey;
+  float: left;
+  margin:10px;
+}
+
+a{
+  margin: 10px;
+}
+

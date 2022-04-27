@@ -1,0 +1,11 @@
+.rew{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration:none;
+  color: grey;
+  float: left;
+  margin-top: 140px;
+  position: absolute;
+}

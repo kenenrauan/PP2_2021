@@ -1,0 +1,21 @@
+<h1>Login Page</h1>
+<div>
+
+  <div *ngIf="logged == false">
+    <p>Username: <input type="text" [(ngModel)]="username"></p>
+    <p>Password: <input type="text" [(ngModel)]="password"></p>
+
+    <button (click)="login()">Login</button>
+    <button (click)="login()" routerLink="/account">Registraion</button>
+  </div>
+
+  <div class="wrapper" *ngIf="logged">
+   You are logged<br>
+  </div>
+
+  <div *ngIf="logged == true"><button (click)="logout()">Logout</button></div>
+
+  </div>
+
+
+

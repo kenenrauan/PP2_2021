@@ -1,0 +1,95 @@
+.s1{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration:none;
+  color: rgb(94, 93, 93);
+  float: left;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 50px;
+
+}
+.s2{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration:none;
+  color: rgb(94, 93, 93);
+  float: left;
+  position: absolute;
+  margin-top: 210px;
+  margin-left: 50px;
+
+}.s3{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: bold;
+   cursor: pointer;
+   text-decoration:none;
+   color: rgb(94, 93, 93);
+   float: left;
+   position: absolute;
+   margin-top: 260px;
+   margin-left: 50px;
+
+ }.s4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration:none;
+    color: rgb(94, 93, 93);
+    float: left;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 50px;
+
+  }
+.p1{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 50;
+  cursor: pointer;
+  text-decoration:none;
+  color: grey;
+  float: left;
+  margin-top:180px;
+  position: absolute;
+  margin-left: 50px;
+}.p2{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 50;
+   cursor: pointer;
+   text-decoration:none;
+   color: grey;
+   float: left;
+   margin-top:230px;
+   position: absolute;
+   margin-left: 50px;
+ }.p3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 50;
+    cursor: pointer;
+    text-decoration:none;
+    color: grey;
+    float: left;
+    margin-top:280px;
+    position: absolute;
+    margin-left: 50px;
+  }.p4{
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 50;
+     cursor: pointer;
+     text-decoration:none;
+     color: grey;
+     float: left;
+     margin-top:330px;
+     position: absolute;
+     margin-left: 50px;
+   }

@@ -1,0 +1,13 @@
+  <h1>Register new Account</h1>
+<label>name:
+  <input [(ngModel)]="usera.username" placeholder="username"/>
+</label>
+<label>password:
+  <input [(ngModel)]="usera.password" placeholder="password"/>
+</label>
+<label>Confirm password:
+  <input [(ngModel)]="confirmPassword" placeholder="password"/>
+</label>
+<label>
+<button (click)="register()" style="width: 100px;height: 30px; margin: 40px;">Registration</button>
+</label>

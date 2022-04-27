@@ -1,0 +1,36 @@
+.nameofprod{
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-style: normal;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: grey;
+  padding: 10px;
+  margin: 0px;
+}
+.prod{
+  font-style: normal;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: grey;
+  padding: 0px;
+  margin: 25px;
+  float: left;
+}
+.priceofprod{
+  padding: 10px;
+  margin: 0px;
+}
+.popprod{
+  font-style: normal;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: grey;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 150px;
+  padding: 0px;
+}

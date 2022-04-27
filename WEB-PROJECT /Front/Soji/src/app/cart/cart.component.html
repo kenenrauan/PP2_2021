@@ -1,0 +1,22 @@
+<h3>Корзина</h3>
+
+<ul>
+  <li *ngFor="let product of items">
+  <h2>{{product.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{product.id}}</div>
+  <div><span>description: </span>{{product.description}}</div>
+  <div><span>price: </span>{{product.price | currency:'KZT':'code'}} </div>
+  <a> <img src="{{product.image}}" width=300 height=300/> </a>
+  </li>
+</ul>
+
+  <div>
+    <label for="address">
+      Address
+    </label>
+    <input  [(ngModel)]="note" id="address" type="text">
+  </div>
+
+  <button class="button" type="submit" (click)="onSubmit(note)">Purchase</button>
+
+
